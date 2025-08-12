@@ -21,7 +21,7 @@ spec:
           - key: disktype
             operator: In
             values:
-            - ssssd           
+            - ssd           
   containers:
   - name: with-node-affinity
     image: nginx
