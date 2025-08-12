@@ -5,7 +5,7 @@ metadata:
   labels:
     app-name: pod-1
     purpose: pod-affinity
-  spec:
-    containers:
-    - name: pod-1
-      image: nginx
+spec:
+  containers:
+  - name: pod-1
+    image: nginx
